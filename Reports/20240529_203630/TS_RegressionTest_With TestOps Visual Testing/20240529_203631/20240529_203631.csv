@@ -1,0 +1,67 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_RegressionTest_With TestOps Visual Testing,Chrome 125.0.0.0,,,29-05-2024 20:36:42,29-05-2024 20:37:20,37.953s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/TC1_Verify Successful Login_With TestOps Visual Testing,Chrome 125.0.0.0,"Verify if users can login successful. 
+
+Steps:
+- Click on 'Book Appointment' button to login
+- Input username and password
+- Click on 'Login' button
+
+Expected result:
+'Appointment' section is displayed after successful login",,29-05-2024 20:36:42,29-05-2024 20:36:57,14.265s,PASSED
+"comment(""Story: Login to CURA system"")",Chrome 125.0.0.0,,,29-05-2024 20:36:43,29-05-2024 20:36:43,0.084s,PASSED
+"comment(""Given that the user has the valid login information"")",Chrome 125.0.0.0,,,29-05-2024 20:36:43,29-05-2024 20:36:43,0.007s,PASSED
+openBrowser(G_SiteURL),Chrome 125.0.0.0,,,29-05-2024 20:36:43,29-05-2024 20:36:51,7.926s,PASSED
+maximizeWindow(),Chrome 125.0.0.0,,,29-05-2024 20:36:51,29-05-2024 20:36:51,0.058s,PASSED
+"click(findTestObject(""Page_CuraHomepage/btn_MakeAppointment""))",Chrome 125.0.0.0,,,29-05-2024 20:36:51,29-05-2024 20:36:52,0.856s,PASSED
+"takeElementScreenshotAsCheckpoint(""Login Dialog Origin"", LoginObject)",Chrome 125.0.0.0,,,29-05-2024 20:36:52,29-05-2024 20:36:52,0.761s,PASSED
+"setText(findTestObject(""Page_Login/txt_UserName""), Username)",Chrome 125.0.0.0,,,29-05-2024 20:36:52,29-05-2024 20:36:53,0.664s,PASSED
+"setText(findTestObject(""Page_Login/txt_Password""), Password)",Chrome 125.0.0.0,,,29-05-2024 20:36:53,29-05-2024 20:36:54,0.661s,PASSED
+"takeElementScreenshotAsCheckpoint(""Login Dialog With Data"", LoginObject)",Chrome 125.0.0.0,,,29-05-2024 20:36:54,29-05-2024 20:36:54,0.640s,PASSED
+"comment(""When he logins to CURA system"")",Chrome 125.0.0.0,,,29-05-2024 20:36:54,29-05-2024 20:36:54,0.003s,PASSED
+"click(findTestObject(""Page_Login/btn_Login""))",Chrome 125.0.0.0,,,29-05-2024 20:36:54,29-05-2024 20:36:55,0.923s,PASSED
+"comment(""Then he should be able to login successfully"")",Chrome 125.0.0.0,,,29-05-2024 20:36:55,29-05-2024 20:36:55,0.003s,PASSED
+"landingPage = verifyElementPresent(findTestObject(""Page_CuraAppointment/div_Appointment""), G_Timeout)",Chrome 125.0.0.0,,,29-05-2024 20:36:55,29-05-2024 20:36:56,0.448s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,29-05-2024 20:36:56,29-05-2024 20:36:56,0.247s,PASSED
+Start listener action : terminateRunningWebDrivers,Chrome 125.0.0.0,,,29-05-2024 20:36:56,29-05-2024 20:36:57,0.544s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/TC2_Verify Successful Appointment_With TestOps Visual Testing,Chrome 125.0.0.0,"Verify if users can book an appointment sucessfully.
+Pre-condition: Users have already logged in
+
+Steps:
+- Fill in appoinment's information
+- Click on appointment's button
+
+Expected results:
+Appointment Confirmation page is displayed",,29-05-2024 20:36:57,29-05-2024 20:37:20,23.252s,PASSED
+"comment(""Story: Book an appointment"")",Chrome 125.0.0.0,,,29-05-2024 20:36:57,29-05-2024 20:36:57,0.003s,PASSED
+"comment(""Given that the user has logged into their account"")",Chrome 125.0.0.0,,,29-05-2024 20:36:57,29-05-2024 20:36:57,0.003s,PASSED
+openBrowser(G_SiteURL),Chrome 125.0.0.0,,,29-05-2024 20:36:57,29-05-2024 20:37:04,6.594s,PASSED
+maximizeWindow(),Chrome 125.0.0.0,,,29-05-2024 20:37:04,29-05-2024 20:37:04,0.041s,PASSED
+"callTestCase(findTestCase(""Common Test Cases/Login""), [""Username"":""John Doe"", ""Password"":""ThisIsNotAPassword""], STOP_ON_FAILURE)",Chrome 125.0.0.0,,,29-05-2024 20:37:04,29-05-2024 20:37:08,3.917s,PASSED
+"comment(""And Appointment page is displayed"")",Chrome 125.0.0.0,,,29-05-2024 20:37:08,29-05-2024 20:37:08,0.004s,PASSED
+"takeElementScreenshotAsCheckpoint(""Appointment Dialog Origin"", AppointmentDialogObject)",Chrome 125.0.0.0,,,29-05-2024 20:37:08,29-05-2024 20:37:08,0.832s,PASSED
+"selectOptionByLabel(findTestObject(""Page_CuraAppointment/lst_Facility""), ""Hongkong CURA Healthcare Center"", false)",Chrome 125.0.0.0,,,29-05-2024 20:37:08,29-05-2024 20:37:09,0.612s,PASSED
+"takeElementScreenshotAsCheckpoint(""Facilty"", FacilityObject)",Chrome 125.0.0.0,,,29-05-2024 20:37:09,29-05-2024 20:37:10,0.609s,PASSED
+"check(findTestObject(""Page_CuraAppointment/chk_Medicaid""))",Chrome 125.0.0.0,,,29-05-2024 20:37:10,29-05-2024 20:37:10,0.333s,PASSED
+"takeElementScreenshotAsCheckpoint(""Medicare"", MedicareChoicesObject)",Chrome 125.0.0.0,,,29-05-2024 20:37:10,29-05-2024 20:37:11,0.606s,PASSED
+"check(findTestObject(""Page_CuraAppointment/chk_Readmission""))",Chrome 125.0.0.0,,,29-05-2024 20:37:11,29-05-2024 20:37:11,0.323s,PASSED
+"setText(findTestObject(""Page_CuraAppointment/txt_VisitDate""), ""27/12/2016"")",Chrome 125.0.0.0,,,29-05-2024 20:37:11,29-05-2024 20:37:12,0.681s,PASSED
+click(CommentLabelObject),Chrome 125.0.0.0,,,29-05-2024 20:37:12,29-05-2024 20:37:12,0.529s,PASSED
+"takeElementScreenshotAsCheckpoint(""Visit Date"", DateObject)",Chrome 125.0.0.0,,,29-05-2024 20:37:12,29-05-2024 20:37:13,0.814s,PASSED
+"setText(findTestObject(""Page_CuraAppointment/txt_Comment""), ""Please make appointment as soon as possible."")",Chrome 125.0.0.0,,,29-05-2024 20:37:13,29-05-2024 20:37:14,0.624s,PASSED
+"comment(""When he fills in valid information in Appointment page"")",Chrome 125.0.0.0,,,29-05-2024 20:37:14,29-05-2024 20:37:14,0.004s,PASSED
+if (Random().nextBoolean()),Chrome 125.0.0.0,,,29-05-2024 20:37:14,29-05-2024 20:37:14,0.007s,PASSED
+"takeElementScreenshotAsCheckpoint(""Appointment Dialog With Data"", AppointmentDialogObject)",Chrome 125.0.0.0,,,29-05-2024 20:37:14,29-05-2024 20:37:14,0.719s,PASSED
+"click(findTestObject(""Page_CuraAppointment/btn_BookAppointment""))",Chrome 125.0.0.0,,,29-05-2024 20:37:14,29-05-2024 20:37:15,0.643s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""Review Appoitment"")",Chrome 125.0.0.0,,,29-05-2024 20:37:15,29-05-2024 20:37:17,2.397s,PASSED
+"verifyTextPresent(""Appointment Confirmation"", false)",Chrome 125.0.0.0,,,29-05-2024 20:37:17,29-05-2024 20:37:18,0.302s,PASSED
+"comment(""Then he should be able to book a new appointment"")",Chrome 125.0.0.0,,,29-05-2024 20:37:18,29-05-2024 20:37:18,0.003s,PASSED
+"verifyMatch(""Hongkong CURA Healthcare Center"", getText(findTestObject(""Page_AppointmentConfirmation/lbl_Facility"")), false)",Chrome 125.0.0.0,,,29-05-2024 20:37:18,29-05-2024 20:37:18,0.302s,PASSED
+"verifyMatch(""Yes"", getText(findTestObject(""Page_AppointmentConfirmation/lbl_HospitalReadmission"")), false)",Chrome 125.0.0.0,,,29-05-2024 20:37:18,29-05-2024 20:37:18,0.294s,PASSED
+"verifyMatch(""Medicaid"", getText(findTestObject(""Page_AppointmentConfirmation/lbl_Program"")), false)",Chrome 125.0.0.0,,,29-05-2024 20:37:18,29-05-2024 20:37:19,0.299s,PASSED
+"verifyMatch(""27/12/2016"", getText(findTestObject(""Page_AppointmentConfirmation/lbl_VisitDate"")), false)",Chrome 125.0.0.0,,,29-05-2024 20:37:19,29-05-2024 20:37:19,0.294s,PASSED
+"verifyMatch(""Please make appointment as soon as possible."", getText(findTestObject(""Page_AppointmentConfirmation/lbl_Comment"")), false)",Chrome 125.0.0.0,,,29-05-2024 20:37:19,29-05-2024 20:37:19,0.294s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,29-05-2024 20:37:19,29-05-2024 20:37:19,0.206s,PASSED
+Start listener action : terminateRunningWebDrivers,Chrome 125.0.0.0,,,29-05-2024 20:37:19,29-05-2024 20:37:20,0.553s,PASSED

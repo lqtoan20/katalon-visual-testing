@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_RegressionTestCollection_With TestOps Visual Testing" time="64.404" tests="4" failures="2" errors="0">
+   <testsuite name="TS_RegressionTest_With TestOps Visual Testing" tests="2" failures="0" errors="0" time="37.953" skipped="0" timestamp="29-05-2024T20:36:42" hostname="ToanLa - DESKTOP-QSIPVT9.mshome.net" id="Test Suites/TS_RegressionTest_With TestOps Visual Testing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ToanLa\\git\\katalon-visual-testing\\Reports\\20240529_203630\\TS_RegressionTest_With TestOps Visual Testing\\20240529_203631"/>
+         <property name="logFiles" value="C:\\Users\\ToanLa\\git\\katalon-visual-testing\\Reports\\20240529_203630\\TS_RegressionTest_With TestOps Visual Testing\\20240529_203631\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-Login Dialog Origin.png, keyes\keyes-Login Dialog With Data.png, keyes\keyes-Appointment Dialog Origin.png, keyes\keyes-Facilty.png, keyes\keyes-Medicare.png, keyes\keyes-Visit Date.png, keyes\keyes-Appointment Dialog With Data.png, keyes\keyes-Review Appoitment.png"/>
+         <property name="hostName" value="ToanLa - DESKTOP-QSIPVT9.mshome.net"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Chrome 125.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.1"/>
+         <property name="sessionId" value="4e09b16b179bd8b5252dca57312a73e2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Main Test Cases/TC1_Verify Successful Login_With TestOps Visual Testing" time="14.265" classname="Test Cases/Main Test Cases/TC1_Verify Successful Login_With TestOps Visual Testing" status="PASSED">
+         <system-out><![CDATA[29-05-2024T20:36:42 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/TC1_Verify Successful Login_With TestOps Visual Testing: Test Cases/Main Test Cases/TC1_Verify Successful Login_With TestOps Visual Testing
+
+29-05-2024T20:36:43 - [TEST_STEP][PASSED] - comment("Story: Login to CURA system"): Story: Login to CURA system
+
+29-05-2024T20:36:43 - [MESSAGE][INFO] - Story: Login to CURA system
+
+29-05-2024T20:36:43 - [TEST_STEP][PASSED] - comment("Given that the user has the valid login information"): Given that the user has the valid login information
+
+29-05-2024T20:36:43 - [MESSAGE][INFO] - Given that the user has the valid login information
+
+29-05-2024T20:36:43 - [TEST_STEP][PASSED] - openBrowser(G_SiteURL): Browser is opened with url: 'http://demoaut.katalon.com'
+
+29-05-2024T20:36:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2024T20:36:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2024T20:36:51 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com'
+
+29-05-2024T20:36:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-05-2024T20:36:51 - [MESSAGE][PASSED] - Current window maximized
+
+29-05-2024T20:36:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_CuraHomepage/btn_MakeAppointment")): Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+29-05-2024T20:36:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+29-05-2024T20:36:52 - [TEST_STEP][PASSED] - takeElementScreenshotAsCheckpoint("Login Dialog Origin", LoginObject): Taking screenshot successfully
+
+29-05-2024T20:36:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-05-2024T20:36:52 - [MESSAGE][INFO] - 0 hidden object(s)
+
+29-05-2024T20:36:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Login Dialog Origin.png]]
+
+29-05-2024T20:36:52 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_UserName"), Username): Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+29-05-2024T20:36:53 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+29-05-2024T20:36:53 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_Password"), Password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+29-05-2024T20:36:54 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+29-05-2024T20:36:54 - [TEST_STEP][PASSED] - takeElementScreenshotAsCheckpoint("Login Dialog With Data", LoginObject): Taking screenshot successfully
+
+29-05-2024T20:36:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-05-2024T20:36:54 - [MESSAGE][INFO] - 0 hidden object(s)
+
+29-05-2024T20:36:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Login Dialog With Data.png]]
+
+29-05-2024T20:36:54 - [TEST_STEP][PASSED] - comment("When he logins to CURA system"): When he logins to CURA system
+
+29-05-2024T20:36:54 - [MESSAGE][INFO] - When he logins to CURA system
+
+29-05-2024T20:36:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_Login")): Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+29-05-2024T20:36:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+29-05-2024T20:36:55 - [TEST_STEP][PASSED] - comment("Then he should be able to login successfully"): Then he should be able to login successfully
+
+29-05-2024T20:36:55 - [MESSAGE][INFO] - Then he should be able to login successfully
+
+29-05-2024T20:36:55 - [TEST_STEP][PASSED] - landingPage = verifyElementPresent(findTestObject("Page_CuraAppointment/div_Appointment"), G_Timeout): Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+29-05-2024T20:36:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+29-05-2024T20:36:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-05-2024T20:36:56 - [MESSAGE][PASSED] - Browser is closed
+
+29-05-2024T20:36:56 - [TEST_STEP][PASSED] - Start listener action : terminateRunningWebDrivers: null
+
+29-05-2024T20:36:56 - [TEST_STEP][PASSED] - cleanup(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/TC2_Verify Successful Appointment_With TestOps Visual Testing" time="23.252" classname="Test Cases/Main Test Cases/TC2_Verify Successful Appointment_With TestOps Visual Testing" status="PASSED">
+         <system-out><![CDATA[29-05-2024T20:36:57 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/TC2_Verify Successful Appointment_With TestOps Visual Testing: Test Cases/Main Test Cases/TC2_Verify Successful Appointment_With TestOps Visual Testing
+
+29-05-2024T20:36:57 - [TEST_STEP][PASSED] - comment("Story: Book an appointment"): Story: Book an appointment
+
+29-05-2024T20:36:57 - [MESSAGE][INFO] - Story: Book an appointment
+
+29-05-2024T20:36:57 - [TEST_STEP][PASSED] - comment("Given that the user has logged into their account"): Given that the user has logged into their account
+
+29-05-2024T20:36:57 - [MESSAGE][INFO] - Given that the user has logged into their account
+
+29-05-2024T20:36:57 - [TEST_STEP][PASSED] - openBrowser(G_SiteURL): Browser is opened with url: 'http://demoaut.katalon.com'
+
+29-05-2024T20:36:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2024T20:36:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2024T20:37:04 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com'
+
+29-05-2024T20:37:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-05-2024T20:37:04 - [MESSAGE][PASSED] - Current window maximized
+
+29-05-2024T20:37:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Test Cases/Login"), ["Username":"John Doe", "Password":"ThisIsNotAPassword"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Test Cases/Login' successfully
+
+29-05-2024T20:37:04 - [TEST_CASE][PASSED] - Test Cases/Common Test Cases/Login: Test Cases/Common Test Cases/Login
+
+29-05-2024T20:37:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_CuraHomepage/btn_MakeAppointment")): Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+29-05-2024T20:37:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+29-05-2024T20:37:05 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_UserName"), Username): Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+29-05-2024T20:37:06 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+29-05-2024T20:37:06 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_Password"), Password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+29-05-2024T20:37:06 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+29-05-2024T20:37:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_Login")): Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+29-05-2024T20:37:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+29-05-2024T20:37:07 - [TEST_STEP][PASSED] - landingPage = verifyElementPresent(findTestObject("Page_CuraAppointment/div_Appointment"), G_Timeout): Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+29-05-2024T20:37:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+29-05-2024T20:37:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test Cases/Login' successfully
+
+29-05-2024T20:37:08 - [TEST_STEP][PASSED] - comment("And Appointment page is displayed"): And Appointment page is displayed
+
+29-05-2024T20:37:08 - [MESSAGE][INFO] - And Appointment page is displayed
+
+29-05-2024T20:37:08 - [TEST_STEP][PASSED] - takeElementScreenshotAsCheckpoint("Appointment Dialog Origin", AppointmentDialogObject): Taking screenshot successfully
+
+29-05-2024T20:37:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-05-2024T20:37:08 - [MESSAGE][INFO] - 0 hidden object(s)
+
+29-05-2024T20:37:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Appointment Dialog Origin.png]]
+
+29-05-2024T20:37:08 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Page_CuraAppointment/lst_Facility"), "Hongkong CURA Healthcare Center", false): All options with label 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CuraAppointment/lst_Facility' 
+
+29-05-2024T20:37:09 - [MESSAGE][PASSED] - All options with label 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CuraAppointment/lst_Facility' 
+
+29-05-2024T20:37:09 - [TEST_STEP][PASSED] - takeElementScreenshotAsCheckpoint("Facilty", FacilityObject): Taking screenshot successfully
+
+29-05-2024T20:37:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-05-2024T20:37:10 - [MESSAGE][INFO] - 0 hidden object(s)
+
+29-05-2024T20:37:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Facilty.png]]
+
+29-05-2024T20:37:10 - [TEST_STEP][PASSED] - check(findTestObject("Page_CuraAppointment/chk_Medicaid")): Object 'Object Repository/Page_CuraAppointment/chk_Medicaid' is checked
+
+29-05-2024T20:37:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/chk_Medicaid' is checked
+
+29-05-2024T20:37:10 - [TEST_STEP][PASSED] - takeElementScreenshotAsCheckpoint("Medicare", MedicareChoicesObject): Taking screenshot successfully
+
+29-05-2024T20:37:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-05-2024T20:37:11 - [MESSAGE][INFO] - 0 hidden object(s)
+
+29-05-2024T20:37:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Medicare.png]]
+
+29-05-2024T20:37:11 - [TEST_STEP][PASSED] - check(findTestObject("Page_CuraAppointment/chk_Readmission")): Object 'Object Repository/Page_CuraAppointment/chk_Readmission' is checked
+
+29-05-2024T20:37:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/chk_Readmission' is checked
+
+29-05-2024T20:37:11 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CuraAppointment/txt_VisitDate"), "27/12/2016"): Text '27/12/2016' is set on object 'Object Repository/Page_CuraAppointment/txt_VisitDate'
+
+29-05-2024T20:37:12 - [MESSAGE][PASSED] - Text '27/12/2016' is set on object 'Object Repository/Page_CuraAppointment/txt_VisitDate'
+
+29-05-2024T20:37:12 - [TEST_STEP][PASSED] - click(CommentLabelObject): Object: 'Object Repository/Vision_Common/Comment_Label' is clicked on
+
+29-05-2024T20:37:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Vision_Common/Comment_Label' is clicked on
+
+29-05-2024T20:37:12 - [TEST_STEP][PASSED] - takeElementScreenshotAsCheckpoint("Visit Date", DateObject): Taking screenshot successfully
+
+29-05-2024T20:37:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-05-2024T20:37:13 - [MESSAGE][INFO] - 0 hidden object(s)
+
+29-05-2024T20:37:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Visit Date.png]]
+
+29-05-2024T20:37:13 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CuraAppointment/txt_Comment"), "Please make appointment as soon as possible."): Text 'Please make appointment as soon as possible.' is set on object 'Object Repository/Page_CuraAppointment/txt_Comment'
+
+29-05-2024T20:37:14 - [MESSAGE][PASSED] - Text 'Please make appointment as soon as possible.' is set on object 'Object Repository/Page_CuraAppointment/txt_Comment'
+
+29-05-2024T20:37:14 - [TEST_STEP][PASSED] - comment("When he fills in valid information in Appointment page"): When he fills in valid information in Appointment page
+
+29-05-2024T20:37:14 - [MESSAGE][INFO] - When he fills in valid information in Appointment page
+
+29-05-2024T20:37:14 - [TEST_STEP][PASSED] - if (Random().nextBoolean()): null
+
+29-05-2024T20:37:14 - [TEST_STEP][PASSED] - takeElementScreenshotAsCheckpoint("Appointment Dialog With Data", AppointmentDialogObject): Taking screenshot successfully
+
+29-05-2024T20:37:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-05-2024T20:37:14 - [MESSAGE][INFO] - 0 hidden object(s)
+
+29-05-2024T20:37:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Appointment Dialog With Data.png]]
+
+29-05-2024T20:37:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_CuraAppointment/btn_BookAppointment")): Object: 'Object Repository/Page_CuraAppointment/btn_BookAppointment' is clicked on
+
+29-05-2024T20:37:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CuraAppointment/btn_BookAppointment' is clicked on
+
+29-05-2024T20:37:15 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("Review Appoitment"): Taking screenshot successfully
+
+29-05-2024T20:37:17 - [MESSAGE][INFO] - 0 hidden object(s)
+
+29-05-2024T20:37:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Review Appoitment.png]]
+
+29-05-2024T20:37:17 - [TEST_STEP][PASSED] - verifyTextPresent("Appointment Confirmation", false): Text 'Appointment Confirmation' is present on page 
+
+29-05-2024T20:37:18 - [MESSAGE][PASSED] - Text 'Appointment Confirmation' is present on page 
+
+29-05-2024T20:37:18 - [TEST_STEP][PASSED] - comment("Then he should be able to book a new appointment"): Then he should be able to book a new appointment
+
+29-05-2024T20:37:18 - [MESSAGE][INFO] - Then he should be able to book a new appointment
+
+29-05-2024T20:37:18 - [TEST_STEP][PASSED] - verifyMatch("Hongkong CURA Healthcare Center", getText(findTestObject("Page_AppointmentConfirmation/lbl_Facility")), false): Actual text 'Hongkong CURA Healthcare Center' and expected text 'Hongkong CURA Healthcare Center' are matched 
+
+29-05-2024T20:37:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_Facility' is: 'Hongkong CURA Healthcare Center'
+
+29-05-2024T20:37:18 - [MESSAGE][PASSED] - Actual text 'Hongkong CURA Healthcare Center' and expected text 'Hongkong CURA Healthcare Center' are matched 
+
+29-05-2024T20:37:18 - [TEST_STEP][PASSED] - verifyMatch("Yes", getText(findTestObject("Page_AppointmentConfirmation/lbl_HospitalReadmission")), false): Actual text 'Yes' and expected text 'Yes' are matched 
+
+29-05-2024T20:37:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_HospitalReadmission' is: 'Yes'
+
+29-05-2024T20:37:18 - [MESSAGE][PASSED] - Actual text 'Yes' and expected text 'Yes' are matched 
+
+29-05-2024T20:37:18 - [TEST_STEP][PASSED] - verifyMatch("Medicaid", getText(findTestObject("Page_AppointmentConfirmation/lbl_Program")), false): Actual text 'Medicaid' and expected text 'Medicaid' are matched 
+
+29-05-2024T20:37:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_Program' is: 'Medicaid'
+
+29-05-2024T20:37:19 - [MESSAGE][PASSED] - Actual text 'Medicaid' and expected text 'Medicaid' are matched 
+
+29-05-2024T20:37:19 - [TEST_STEP][PASSED] - verifyMatch("27/12/2016", getText(findTestObject("Page_AppointmentConfirmation/lbl_VisitDate")), false): Actual text '27/12/2016' and expected text '27/12/2016' are matched 
+
+29-05-2024T20:37:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_VisitDate' is: '27/12/2016'
+
+29-05-2024T20:37:19 - [MESSAGE][PASSED] - Actual text '27/12/2016' and expected text '27/12/2016' are matched 
+
+29-05-2024T20:37:19 - [TEST_STEP][PASSED] - verifyMatch("Please make appointment as soon as possible.", getText(findTestObject("Page_AppointmentConfirmation/lbl_Comment")), false): Actual text 'Please make appointment as soon as possible.' and expected text 'Please make appointment as soon as possible.' are matched 
+
+29-05-2024T20:37:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_Comment' is: 'Please make appointment as soon as possible.'
+
+29-05-2024T20:37:19 - [MESSAGE][PASSED] - Actual text 'Please make appointment as soon as possible.' and expected text 'Please make appointment as soon as possible.' are matched 
+
+29-05-2024T20:37:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-05-2024T20:37:19 - [MESSAGE][PASSED] - Browser is closed
+
+29-05-2024T20:37:19 - [TEST_STEP][PASSED] - Start listener action : terminateRunningWebDrivers: null
+
+29-05-2024T20:37:19 - [TEST_STEP][PASSED] - cleanup(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-05-2024T20:36:42 - [TEST_SUITE][PASSED] - TS_RegressionTest_With TestOps Visual Testing: Test Cases/Main Test Cases/TC2_Verify Successful Appointment_With TestOps Visual Testing]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS_RegressionTest_With TestOps Visual Testing" tests="2" failures="2" errors="0" time="2.932" skipped="0" timestamp="29-05-2024T20:37:32" hostname="ToanLa - DESKTOP-QSIPVT9.mshome.net" id="Test Suites/TS_RegressionTest_With TestOps Visual Testing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ToanLa\\git\\katalon-visual-testing\\Reports\\20240529_203630\\TS_RegressionTest_With TestOps Visual Testing\\20240529_203633"/>
+         <property name="logFiles" value="C:\\Users\\ToanLa\\git\\katalon-visual-testing\\Reports\\20240529_203630\\TS_RegressionTest_With TestOps Visual Testing\\20240529_203633\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ToanLa - DESKTOP-QSIPVT9.mshome.net"/>
+         <property name="hostAddress" value="192.168.0.1"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+      </properties>
+      <testcase name="Test Cases/Main Test Cases/TC1_Verify Successful Login_With TestOps Visual Testing" time="1.545" classname="Test Cases/Main Test Cases/TC1_Verify Successful Login_With TestOps Visual Testing" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Main Test Cases/TC1_Verify Successful Login_With TestOps Visual Testing FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'http://demoaut.katalon.com'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)&#xa;	at TC1_Verify Successful Login_With TestOps Visual Testing.run(TC1_Verify Successful Login_With TestOps Visual Testing:26)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1716989793510.run(TempTestSuite1716989793510.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP&#xa;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xa;System info: host: 'DESKTOP-QSIPVT9', ip: '192.168.0.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'&#xa;Driver info: driver.version: CGeckoDriver&#xa;	at org.openqa.selenium.firefox.FirefoxBinary.&lt;init>(FirefoxBinary.java:100)&#xa;	at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:216)&#xa;	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:187)&#xa;	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init>(FirefoxDriver.java:147)&#xa;	at com.kms.katalon.selenium.driver.CFirefoxDriver.&lt;init>(CFirefoxDriver.java:22)&#xa;	at com.kms.katalon.core.webui.driver.firefox.CGeckoDriver.&lt;init>(CGeckoDriver.java:12)&#xa;	at com.kms.katalon.core.webui.driver.firefox.CGeckoDriver.from(CGeckoDriver.java:17)&#xa;	at com.kms.katalon.core.webui.driver.DriverFactory.createNewFirefoxDriver(DriverFactory.java:728)&#xa;	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:373)&#xa;	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:271)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[29-05-2024T20:37:33 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/TC1_Verify Successful Login_With TestOps Visual Testing: Test Cases/Main Test Cases/TC1_Verify Successful Login_With TestOps Visual Testing FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'http://demoaut.katalon.com'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at TC1_Verify Successful Login_With TestOps Visual Testing.run(TC1_Verify Successful Login_With TestOps Visual Testing:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716989793510.run(TempTestSuite1716989793510.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-QSIPVT9', ip: '192.168.0.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: CGeckoDriver
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:100)
+	at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:187)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.<init>(CFirefoxDriver.java:22)
+	at com.kms.katalon.core.webui.driver.firefox.CGeckoDriver.<init>(CGeckoDriver.java:12)
+	at com.kms.katalon.core.webui.driver.firefox.CGeckoDriver.from(CGeckoDriver.java:17)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewFirefoxDriver(DriverFactory.java:728)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:373)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:271)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+29-05-2024T20:37:33 - [TEST_STEP][PASSED] - comment("Story: Login to CURA system"): Story: Login to CURA system
+
+29-05-2024T20:37:33 - [MESSAGE][INFO] - Story: Login to CURA system
+
+29-05-2024T20:37:33 - [TEST_STEP][PASSED] - comment("Given that the user has the valid login information"): Given that the user has the valid login information
+
+29-05-2024T20:37:33 - [MESSAGE][INFO] - Given that the user has the valid login information
+
+29-05-2024T20:37:33 - [TEST_STEP][FAILED] - openBrowser(G_SiteURL): Unable to open browser with url: 'http://demoaut.katalon.com' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'http://demoaut.katalon.com'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at TC1_Verify Successful Login_With TestOps Visual Testing.run(TC1_Verify Successful Login_With TestOps Visual Testing:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716989793510.run(TempTestSuite1716989793510.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-QSIPVT9', ip: '192.168.0.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: CGeckoDriver
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:100)
+	at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:187)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.<init>(CFirefoxDriver.java:22)
+	at com.kms.katalon.core.webui.driver.firefox.CGeckoDriver.<init>(CGeckoDriver.java:12)
+	at com.kms.katalon.core.webui.driver.firefox.CGeckoDriver.from(CGeckoDriver.java:17)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewFirefoxDriver(DriverFactory.java:728)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:373)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:271)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at Script1653642564634.run(Script1653642564634.groovy:26)
+	... 15 more
+)
+
+29-05-2024T20:37:34 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+29-05-2024T20:37:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2024T20:37:34 - [MESSAGE][FAILED] - Unable to open browser with url: 'http://demoaut.katalon.com' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'http://demoaut.katalon.com'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at TC1_Verify Successful Login_With TestOps Visual Testing.run(TC1_Verify Successful Login_With TestOps Visual Testing:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716989793510.run(TempTestSuite1716989793510.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-QSIPVT9', ip: '192.168.0.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: CGeckoDriver
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:100)
+	at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:187)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.<init>(CFirefoxDriver.java:22)
+	at com.kms.katalon.core.webui.driver.firefox.CGeckoDriver.<init>(CGeckoDriver.java:12)
+	at com.kms.katalon.core.webui.driver.firefox.CGeckoDriver.from(CGeckoDriver.java:17)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewFirefoxDriver(DriverFactory.java:728)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:373)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:271)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at Script1653642564634.run(Script1653642564634.groovy:26)
+	... 15 more
+)
+
+29-05-2024T20:37:34 - [TEST_STEP][PASSED] - Start listener action : terminateRunningWebDrivers: null
+
+29-05-2024T20:37:34 - [TEST_STEP][PASSED] - cleanup(): null]]></system-out>
+         <system-err><![CDATA[29-05-2024T20:37:33 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/TC1_Verify Successful Login_With TestOps Visual Testing: Test Cases/Main Test Cases/TC1_Verify Successful Login_With TestOps Visual Testing FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'http://demoaut.katalon.com'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at TC1_Verify Successful Login_With TestOps Visual Testing.run(TC1_Verify Successful Login_With TestOps Visual Testing:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716989793510.run(TempTestSuite1716989793510.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-QSIPVT9', ip: '192.168.0.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: CGeckoDriver
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:100)
+	at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:187)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.<init>(CFirefoxDriver.java:22)
+	at com.kms.katalon.core.webui.driver.firefox.CGeckoDriver.<init>(CGeckoDriver.java:12)
+	at com.kms.katalon.core.webui.driver.firefox.CGeckoDriver.from(CGeckoDriver.java:17)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewFirefoxDriver(DriverFactory.java:728)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:373)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:271)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/TC2_Verify Successful Appointment_With TestOps Visual Testing" time="0.999" classname="Test Cases/Main Test Cases/TC2_Verify Successful Appointment_With TestOps Visual Testing" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Main Test Cases/TC2_Verify Successful Appointment_With TestOps Visual Testing FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'http://demoaut.katalon.com'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)&#xa;	at TC2_Verify Successful Appointment_With TestOps Visual Testing.run(TC2_Verify Successful Appointment_With TestOps Visual Testing:26)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1716989793510.run(TempTestSuite1716989793510.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP&#xa;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xa;System info: host: 'DESKTOP-QSIPVT9', ip: '192.168.0.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'&#xa;Driver info: driver.version: CGeckoDriver&#xa;	at org.openqa.selenium.firefox.FirefoxBinary.&lt;init>(FirefoxBinary.java:100)&#xa;	at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:216)&#xa;	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:187)&#xa;	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init>(FirefoxDriver.java:147)&#xa;	at com.kms.katalon.selenium.driver.CFirefoxDriver.&lt;init>(CFirefoxDriver.java:22)&#xa;	at com.kms.katalon.core.webui.driver.firefox.CGeckoDriver.&lt;init>(CGeckoDriver.java:12)&#xa;	at com.kms.katalon.core.webui.driver.firefox.CGeckoDriver.from(CGeckoDriver.java:17)&#xa;	at com.kms.katalon.core.webui.driver.DriverFactory.createNewFirefoxDriver(DriverFactory.java:728)&#xa;	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:373)&#xa;	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:271)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[29-05-2024T20:37:34 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/TC2_Verify Successful Appointment_With TestOps Visual Testing: Test Cases/Main Test Cases/TC2_Verify Successful Appointment_With TestOps Visual Testing FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'http://demoaut.katalon.com'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at TC2_Verify Successful Appointment_With TestOps Visual Testing.run(TC2_Verify Successful Appointment_With TestOps Visual Testing:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716989793510.run(TempTestSuite1716989793510.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-QSIPVT9', ip: '192.168.0.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: CGeckoDriver
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:100)
+	at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:187)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.<init>(CFirefoxDriver.java:22)
+	at com.kms.katalon.core.webui.driver.firefox.CGeckoDriver.<init>(CGeckoDriver.java:12)
+	at com.kms.katalon.core.webui.driver.firefox.CGeckoDriver.from(CGeckoDriver.java:17)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewFirefoxDriver(DriverFactory.java:728)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:373)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:271)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+29-05-2024T20:37:35 - [TEST_STEP][PASSED] - comment("Story: Book an appointment"): Story: Book an appointment
+
+29-05-2024T20:37:35 - [MESSAGE][INFO] - Story: Book an appointment
+
+29-05-2024T20:37:35 - [TEST_STEP][PASSED] - comment("Given that the user has logged into their account"): Given that the user has logged into their account
+
+29-05-2024T20:37:35 - [MESSAGE][INFO] - Given that the user has logged into their account
+
+29-05-2024T20:37:35 - [TEST_STEP][FAILED] - openBrowser(G_SiteURL): Unable to open browser with url: 'http://demoaut.katalon.com' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'http://demoaut.katalon.com'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at TC2_Verify Successful Appointment_With TestOps Visual Testing.run(TC2_Verify Successful Appointment_With TestOps Visual Testing:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716989793510.run(TempTestSuite1716989793510.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-QSIPVT9', ip: '192.168.0.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: CGeckoDriver
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:100)
+	at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:187)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.<init>(CFirefoxDriver.java:22)
+	at com.kms.katalon.core.webui.driver.firefox.CGeckoDriver.<init>(CGeckoDriver.java:12)
+	at com.kms.katalon.core.webui.driver.firefox.CGeckoDriver.from(CGeckoDriver.java:17)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewFirefoxDriver(DriverFactory.java:728)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:373)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:271)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at Script1653642574512.run(Script1653642574512.groovy:26)
+	... 15 more
+)
+
+29-05-2024T20:37:35 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+29-05-2024T20:37:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2024T20:37:35 - [MESSAGE][FAILED] - Unable to open browser with url: 'http://demoaut.katalon.com' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'http://demoaut.katalon.com'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at TC2_Verify Successful Appointment_With TestOps Visual Testing.run(TC2_Verify Successful Appointment_With TestOps Visual Testing:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716989793510.run(TempTestSuite1716989793510.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-QSIPVT9', ip: '192.168.0.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: CGeckoDriver
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:100)
+	at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:187)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.<init>(CFirefoxDriver.java:22)
+	at com.kms.katalon.core.webui.driver.firefox.CGeckoDriver.<init>(CGeckoDriver.java:12)
+	at com.kms.katalon.core.webui.driver.firefox.CGeckoDriver.from(CGeckoDriver.java:17)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewFirefoxDriver(DriverFactory.java:728)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:373)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:271)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at Script1653642574512.run(Script1653642574512.groovy:26)
+	... 15 more
+)
+
+29-05-2024T20:37:35 - [TEST_STEP][PASSED] - Start listener action : terminateRunningWebDrivers: null
+
+29-05-2024T20:37:35 - [TEST_STEP][PASSED] - cleanup(): null]]></system-out>
+         <system-err><![CDATA[29-05-2024T20:37:34 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/TC2_Verify Successful Appointment_With TestOps Visual Testing: Test Cases/Main Test Cases/TC2_Verify Successful Appointment_With TestOps Visual Testing FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'http://demoaut.katalon.com'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at TC2_Verify Successful Appointment_With TestOps Visual Testing.run(TC2_Verify Successful Appointment_With TestOps Visual Testing:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716989793510.run(TempTestSuite1716989793510.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-QSIPVT9', ip: '192.168.0.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: CGeckoDriver
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:100)
+	at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:187)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.<init>(CFirefoxDriver.java:22)
+	at com.kms.katalon.core.webui.driver.firefox.CGeckoDriver.<init>(CGeckoDriver.java:12)
+	at com.kms.katalon.core.webui.driver.firefox.CGeckoDriver.from(CGeckoDriver.java:17)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewFirefoxDriver(DriverFactory.java:728)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:373)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:271)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-05-2024T20:37:32 - [TEST_SUITE][FAILED] - TS_RegressionTest_With TestOps Visual Testing: Test Cases/Main Test Cases/TC1_Verify Successful Login_With TestOps Visual Testing FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'http://demoaut.katalon.com'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at TC1_Verify Successful Login_With TestOps Visual Testing.run(TC1_Verify Successful Login_With TestOps Visual Testing:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716989793510.run(TempTestSuite1716989793510.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-QSIPVT9', ip: '192.168.0.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: CGeckoDriver
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:100)
+	at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:187)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.<init>(CFirefoxDriver.java:22)
+	at com.kms.katalon.core.webui.driver.firefox.CGeckoDriver.<init>(CGeckoDriver.java:12)
+	at com.kms.katalon.core.webui.driver.firefox.CGeckoDriver.from(CGeckoDriver.java:17)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewFirefoxDriver(DriverFactory.java:728)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:373)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:271)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[29-05-2024T20:37:32 - [TEST_SUITE][FAILED] - TS_RegressionTest_With TestOps Visual Testing: Test Cases/Main Test Cases/TC1_Verify Successful Login_With TestOps Visual Testing FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'http://demoaut.katalon.com'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at TC1_Verify Successful Login_With TestOps Visual Testing.run(TC1_Verify Successful Login_With TestOps Visual Testing:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716989793510.run(TempTestSuite1716989793510.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-QSIPVT9', ip: '192.168.0.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: CGeckoDriver
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:100)
+	at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:187)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.<init>(CFirefoxDriver.java:22)
+	at com.kms.katalon.core.webui.driver.firefox.CGeckoDriver.<init>(CGeckoDriver.java:12)
+	at com.kms.katalon.core.webui.driver.firefox.CGeckoDriver.from(CGeckoDriver.java:17)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewFirefoxDriver(DriverFactory.java:728)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:373)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:271)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

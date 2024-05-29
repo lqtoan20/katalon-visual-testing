@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_RegressionTest_With TestOps Visual Testing,,,,29-05-2024 20:37:32,29-05-2024 20:37:35,2.932s,FAILED
+,,,,,,,
+Test Cases/Main Test Cases/TC1_Verify Successful Login_With TestOps Visual Testing,,"Verify if users can login successful. 
+
+Steps:
+- Click on 'Book Appointment' button to login
+- Input username and password
+- Click on 'Login' button
+
+Expected result:
+'Appointment' section is displayed after successful login",,29-05-2024 20:37:33,29-05-2024 20:37:34,1.545s,FAILED
+"comment(""Story: Login to CURA system"")",,,,29-05-2024 20:37:33,29-05-2024 20:37:33,0.074s,PASSED
+"comment(""Given that the user has the valid login information"")",,,,29-05-2024 20:37:33,29-05-2024 20:37:33,0.014s,PASSED
+openBrowser(G_SiteURL),,,,29-05-2024 20:37:33,29-05-2024 20:37:34,0.498s,FAILED
+Start listener action : terminateRunningWebDrivers,,,,29-05-2024 20:37:34,29-05-2024 20:37:34,0.537s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/TC2_Verify Successful Appointment_With TestOps Visual Testing,,"Verify if users can book an appointment sucessfully.
+Pre-condition: Users have already logged in
+
+Steps:
+- Fill in appoinment's information
+- Click on appointment's button
+
+Expected results:
+Appointment Confirmation page is displayed",,29-05-2024 20:37:34,29-05-2024 20:37:35,0.999s,FAILED
+"comment(""Story: Book an appointment"")",,,,29-05-2024 20:37:35,29-05-2024 20:37:35,0.004s,PASSED
+"comment(""Given that the user has logged into their account"")",,,,29-05-2024 20:37:35,29-05-2024 20:37:35,0.003s,PASSED
+openBrowser(G_SiteURL),,,,29-05-2024 20:37:35,29-05-2024 20:37:35,0.018s,FAILED
+Start listener action : terminateRunningWebDrivers,,,,29-05-2024 20:37:35,29-05-2024 20:37:35,0.519s,PASSED
